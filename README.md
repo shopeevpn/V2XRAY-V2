@@ -55,24 +55,28 @@ chmod +x /var/run/screen
 =====================================-{ Autoscript Premium }-===============================
 
 --------------------------------------------------------------------------------------------
-
    >>> Service & Port
    - OpenSSH                 : 22
    - OpenVPN                 : TCP 1194, UDP 2200
-   - Stunnel4                : 888, 777
+   - Stunnel4                : 444, 777
    - Dropbear                : 109, 143
    - Squid Proxy             : 3128, 8000 (limit to IP Server)
    - Badvpn                  : 7300
-   - Nginx                   : 81
+   - Nginx                   : 81, 82
    - Wireguard               : 7070
    - Shadowsocks-R           : 1443-1543
    - SS-OBFS TLS             : 2443-2543
    - SS-OBFS HTTP            : 3443-3543
-   - v2ray VLESS XTLS SPLICE : 443
-   - v2ray VLESS XTLS DIRECT : 443
-   - v2ray VLESS WS TLS      : 443
-   - v2ray TROJAN TLS        : 443
-   - v2ray VMESS TLS         : 443
+   - XRAY VLESS XTLS SPLICE  : 443
+   - XRAY VLESS XTLS DIRECT  : 443
+   - XRAY VLESS WS TLS       : 443
+   - XRAY TROJAN TLS         : 443
+   - XRAY VMESS TLS          : 443
+   - V2RAY VLESS TLS SPLICE  : 8080
+   - V2RAY VLESS TLS DIRECT  : 8080
+   - V2RAY VLESS WS TLS      : 8080
+   - V2RAY TROJAN TLS        : 8080
+   - V2RAY VMESS TLS         : 8080
    - Trojan-GFW              : 2087
 
    >>> Server Information & Other Features
@@ -80,10 +84,11 @@ chmod +x /var/run/screen
    - Fail2Ban                 : [ON]
    - DDOS Dflate              : [ON]
    - IPtables                 : [ON]
-   - Auto-Reboot              : [ON]
+   - Auto-Reboot              : [OFF]
    - IPv6                     : [OFF]
-   - Auto-Reboot              : [ON]
    - Auto-Remove-Expired      : [ON]
+   - Installation Log --> /root/log-install.txt
+
    - Installation Log --> /root/log-install.txt
 
 -----------------------------Script by RARE-------------------------------------
