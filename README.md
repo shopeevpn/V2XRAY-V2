@@ -98,8 +98,7 @@ chmod +x /var/run/screen
    - Auto-Remove-Expired      : [ON]
    - Installation Log --> /root/log-install.txt
 
-
------------------------------Script by RARE-------------------------------------
+               Script by VPNSHOPEE | Telegram: @vpnshopee
 
 ## Credit :
 * MACK-A
