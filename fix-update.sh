@@ -1,4 +1,9 @@
 #!/bin/bash
+# &> /dev/null
+
+#SCnewversion=$(curl -s https://raw.githubusercontent.com/shopeevpn/V2XRAY-V2/main/version)
+SCnewversion="V2XRAY V2 13.01.2022"
+echo "$SCnewversion" > /home/version
 
 cd /usr/bin
 echo "[ Info ] Update version menu"
