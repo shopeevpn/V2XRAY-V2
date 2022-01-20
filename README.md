@@ -52,7 +52,8 @@ You can click the Preview link to take a look at your changes.
   ## Installation :
 
 ```
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl wget tcpdump dsniff grepcidr dnsutils && wget https://raw.githubusercontent.com/shopeevpn/V2XRAY-V2/main/setup.sh && chmod +x setup.sh && "/root/setup.sh"
+echo -e "[ Info ] Download setup file" && sysctl -w net.ipv6.conf.all.disable_ipv6=1 &> /dev/null && sysctl -w net.ipv6.conf.default.disable_ipv6=1 &> /dev/null && apt update &> /dev/null && apt install -y bzip2 gzip coreutils screen curl wget tcpdump dsniff grepcidr dnsutils &> /dev/null && wget https://raw.githubusercontent.com/shopeevpn/V2XRAY-V2/main/setup.sh &> /dev/null && chmod +x setup.sh && "/root/setup.sh"
+   
 ```
 kalau error masa install [screen is terminating]
 ```   
