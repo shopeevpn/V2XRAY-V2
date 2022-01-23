@@ -2,10 +2,12 @@
 red='\e[31m'
 green='\e[0;32m'
 NC='\e[0m'
-MYIP=$(curl -sS ipv4.icanhazip.com);
+DF='\e[39m'
+MYIP=$(curl -sS ipv4.icanhazip.com)
+MYIP3=$(grep -o '"query":"[^"]*' /usr/sbin/infovps | grep -o '[^"]*$')
 echo "Checking VPS"
 useripgit=$(cat /home/userip-git)
-usergit=$(cat /home/user-git) 
+usergit=$(cat /home/user-git)
 clear
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
 Info="${Green_font_prefix}[Installed]${Font_color_suffix}"
