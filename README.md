@@ -48,7 +48,7 @@ You can click the Preview link to take a look at your changes.
    </p>   
   ## Register IP VPS: Contact Telegram @vpnshopee <a href="https://t.me/vpnshopee" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a>
   
-## BUY SCRIPT :  <a href="https://racunzx.com/products/vps-autoscript-xray-hysteria-v2ray-trojan-with-themes-40-days?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=shopee&label=Shopee&message=Click%20Here&color=blue"></a>  
+## BUY SCRIPT :  <a href="https://racunzx.com/products/vps-autoscript-xray-hysteria-v2ray-trojan-with-themes-40-days?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=BUY&label=BUY&message=Click%20Here&color=blue"></a>  
   ## Installation :
 
 ```
